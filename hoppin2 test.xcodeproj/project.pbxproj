@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D47CC7B2448D02600B7C56D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D47CC7A2448D02600B7C56D /* SecondViewController.swift */; };
 		63644EF72417F83B0003728D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644EF62417F83B0003728D /* AppDelegate.swift */; };
-		63644EF92417F83B0003728D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644EF82417F83B0003728D /* ViewController.swift */; };
+		63644EF92417F83B0003728D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63644EF82417F83B0003728D /* HomeViewController.swift */; };
 		63644EFC2417F83B0003728D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63644EFA2417F83B0003728D /* Main.storyboard */; };
 		63644EFE2417F83C0003728D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63644EFD2417F83C0003728D /* Assets.xcassets */; };
 		63644F012417F83C0003728D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63644EFF2417F83C0003728D /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D47CC7A2448D02600B7C56D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		63644EF32417F83B0003728D /* hoppin2 test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoppin2 test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63644EF62417F83B0003728D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63644EF82417F83B0003728D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63644EF82417F83B0003728D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		63644EFB2417F83B0003728D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63644EFD2417F83C0003728D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63644F002417F83C0003728D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				63644EF62417F83B0003728D /* AppDelegate.swift */,
-				63644EF82417F83B0003728D /* ViewController.swift */,
+				63644EF82417F83B0003728D /* HomeViewController.swift */,
 				63644EFA2417F83B0003728D /* Main.storyboard */,
 				63644EFD2417F83C0003728D /* Assets.xcassets */,
 				63644EFF2417F83C0003728D /* LaunchScreen.storyboard */,
 				63644F022417F83C0003728D /* Info.plist */,
+				1D47CC7A2448D02600B7C56D /* SecondViewController.swift */,
 			);
 			path = "hoppin2 test";
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63644EF92417F83B0003728D /* ViewController.swift in Sources */,
+				1D47CC7B2448D02600B7C56D /* SecondViewController.swift in Sources */,
+				63644EF92417F83B0003728D /* HomeViewController.swift in Sources */,
 				63644EF72417F83B0003728D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

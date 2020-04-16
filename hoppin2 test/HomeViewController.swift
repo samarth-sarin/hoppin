@@ -9,7 +9,7 @@
 import UIKit
 import MessageUI
 
-class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
+class HomeViewController: UIViewController, MFMessageComposeViewControllerDelegate {
     
 
     
@@ -49,6 +49,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
     
     
     @IBAction func sendText(_ sender: UIButton) {
+        
         if (MFMessageComposeViewController.canSendText()) {
             let controller = MFMessageComposeViewController()
             controller.body = "My name is Samarth and I am ordering from Taco Bell"
@@ -59,6 +60,11 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
         else {
             print("SMS services are not available")
         }
+        
+        //move to next view?
+        self.performSegue(withIdentifier:"SecondViewSegue", sender: self);
+        
+        
     }
     
 
@@ -74,7 +80,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
     
 }
 
-extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate{
+extension HomeViewController: UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate{
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
