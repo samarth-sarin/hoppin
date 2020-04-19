@@ -18,7 +18,7 @@ class HomeViewController: UIViewController, MFMessageComposeViewControllerDelega
     var listOfRestaurant = ["Zingermans", "Frita Batidos", "Slurping Turtle", "Snap Pizza", "Tomokun", "Isalita", "Sava's", "Buffalo Wild Wings", "TK Wu", "Sadako", "Pizza House", "Charley's", "Brown Jug", "Taco Bell", "McDonalds", "Wendy's", "Subway", "Kangs", "Rich JC", "Belly Deli", "Tropical Smoothie", "Cold Stone"]
     
     
-    var num = "8108134200";
+    var num = "000000000";
     
     override func viewDidLoad() {
         super.viewDidLoad()
